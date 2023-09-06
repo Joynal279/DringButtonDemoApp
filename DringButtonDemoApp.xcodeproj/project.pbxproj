@@ -44,6 +44,7 @@
 		F2C48C672AA88DB400424944 /* DringButtonDemoApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DringButtonDemoApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C48C6B2AA88DB400424944 /* DringButtonDemoApp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DringButtonDemoApp_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		F2C48C6D2AA88DB400424944 /* DringButtonDemoApp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DringButtonDemoApp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2C48C7A2AA8A28E00424944 /* DringButtonDemoApp Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DringButtonDemoApp Watch App.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		F2C48C4F2AA88DB200424944 /* DringButtonDemoApp Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				F2C48C7A2AA8A28E00424944 /* DringButtonDemoApp Watch App.entitlements */,
 				F2C48C502AA88DB200424944 /* DringButtonDemoAppApp.swift */,
 				F2C48C522AA88DB200424944 /* ContentView.swift */,
 				F2C48C542AA88DB400424944 /* Assets.xcassets */,
@@ -414,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DringButtonDemoApp Watch App/DringButtonDemoApp Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DringButtonDemoApp Watch App/Preview Content\"";
@@ -444,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DringButtonDemoApp Watch App/DringButtonDemoApp Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DringButtonDemoApp Watch App/Preview Content\"";
