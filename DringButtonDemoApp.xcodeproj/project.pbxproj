@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2C48C512AA88DB200424944 /* DringButtonDemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C48C502AA88DB200424944 /* DringButtonDemoAppApp.swift */; };
+		F2C48C532AA88DB200424944 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C48C522AA88DB200424944 /* ContentView.swift */; };
+		F2C48C552AA88DB400424944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C48C542AA88DB400424944 /* Assets.xcassets */; };
+		F2C48C582AA88DB400424944 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C48C572AA88DB400424944 /* Preview Assets.xcassets */; };
+		F2C48C622AA88DB400424944 /* DringButtonDemoApp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C48C612AA88DB400424944 /* DringButtonDemoApp_Watch_AppTests.swift */; };
+		F2C48C6C2AA88DB400424944 /* DringButtonDemoApp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C48C6B2AA88DB400424944 /* DringButtonDemoApp_Watch_AppUITests.swift */; };
+		F2C48C6E2AA88DB400424944 /* DringButtonDemoApp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C48C6D2AA88DB400424944 /* DringButtonDemoApp_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2C48C5E2AA88DB400424944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C48C452AA88DB200424944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2C48C4C2AA88DB200424944;
+			remoteInfo = "DringButtonDemoApp Watch App";
+		};
+		F2C48C682AA88DB400424944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C48C452AA88DB200424944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2C48C4C2AA88DB200424944;
+			remoteInfo = "DringButtonDemoApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2C48C4D2AA88DB200424944 /* DringButtonDemoApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DringButtonDemoApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C48C502AA88DB200424944 /* DringButtonDemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DringButtonDemoAppApp.swift; sourceTree = "<group>"; };
+		F2C48C522AA88DB200424944 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2C48C542AA88DB400424944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2C48C572AA88DB400424944 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2C48C5D2AA88DB400424944 /* DringButtonDemoApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DringButtonDemoApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C48C612AA88DB400424944 /* DringButtonDemoApp_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DringButtonDemoApp_Watch_AppTests.swift; sourceTree = "<group>"; };
+		F2C48C672AA88DB400424944 /* DringButtonDemoApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DringButtonDemoApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C48C6B2AA88DB400424944 /* DringButtonDemoApp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DringButtonDemoApp_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		F2C48C6D2AA88DB400424944 /* DringButtonDemoApp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DringButtonDemoApp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2C48C4A2AA88DB200424944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C48C5A2AA88DB400424944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C48C642AA88DB400424944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2C48C442AA88DB200424944 = {
+			isa = PBXGroup;
+			children = (
+				F2C48C4F2AA88DB200424944 /* DringButtonDemoApp Watch App */,
+				F2C48C602AA88DB400424944 /* DringButtonDemoApp Watch AppTests */,
+				F2C48C6A2AA88DB400424944 /* DringButtonDemoApp Watch AppUITests */,
+				F2C48C4E2AA88DB200424944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2C48C4E2AA88DB200424944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2C48C4D2AA88DB200424944 /* DringButtonDemoApp Watch App.app */,
+				F2C48C5D2AA88DB400424944 /* DringButtonDemoApp Watch AppTests.xctest */,
+				F2C48C672AA88DB400424944 /* DringButtonDemoApp Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2C48C4F2AA88DB200424944 /* DringButtonDemoApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				F2C48C502AA88DB200424944 /* DringButtonDemoAppApp.swift */,
+				F2C48C522AA88DB200424944 /* ContentView.swift */,
+				F2C48C542AA88DB400424944 /* Assets.xcassets */,
+				F2C48C562AA88DB400424944 /* Preview Content */,
+			);
+			path = "DringButtonDemoApp Watch App";
+			sourceTree = "<group>";
+		};
+		F2C48C562AA88DB400424944 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F2C48C572AA88DB400424944 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2C48C602AA88DB400424944 /* DringButtonDemoApp Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2C48C612AA88DB400424944 /* DringButtonDemoApp_Watch_AppTests.swift */,
+			);
+			path = "DringButtonDemoApp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		F2C48C6A2AA88DB400424944 /* DringButtonDemoApp Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2C48C6B2AA88DB400424944 /* DringButtonDemoApp_Watch_AppUITests.swift */,
+				F2C48C6D2AA88DB400424944 /* DringButtonDemoApp_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "DringButtonDemoApp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2C48C4C2AA88DB200424944 /* DringButtonDemoApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C48C712AA88DB400424944 /* Build configuration list for PBXNativeTarget "DringButtonDemoApp Watch App" */;
+			buildPhases = (
+				F2C48C492AA88DB200424944 /* Sources */,
+				F2C48C4A2AA88DB200424944 /* Frameworks */,
+				F2C48C4B2AA88DB200424944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DringButtonDemoApp Watch App";
+			productName = "DringButtonDemoApp Watch App";
+			productReference = F2C48C4D2AA88DB200424944 /* DringButtonDemoApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2C48C5C2AA88DB400424944 /* DringButtonDemoApp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C48C742AA88DB400424944 /* Build configuration list for PBXNativeTarget "DringButtonDemoApp Watch AppTests" */;
+			buildPhases = (
+				F2C48C592AA88DB400424944 /* Sources */,
+				F2C48C5A2AA88DB400424944 /* Frameworks */,
+				F2C48C5B2AA88DB400424944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2C48C5F2AA88DB400424944 /* PBXTargetDependency */,
+			);
+			name = "DringButtonDemoApp Watch AppTests";
+			productName = "DringButtonDemoApp Watch AppTests";
+			productReference = F2C48C5D2AA88DB400424944 /* DringButtonDemoApp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2C48C662AA88DB400424944 /* DringButtonDemoApp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C48C772AA88DB400424944 /* Build configuration list for PBXNativeTarget "DringButtonDemoApp Watch AppUITests" */;
+			buildPhases = (
+				F2C48C632AA88DB400424944 /* Sources */,
+				F2C48C642AA88DB400424944 /* Frameworks */,
+				F2C48C652AA88DB400424944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2C48C692AA88DB400424944 /* PBXTargetDependency */,
+			);
+			name = "DringButtonDemoApp Watch AppUITests";
+			productName = "DringButtonDemoApp Watch AppUITests";
+			productReference = F2C48C672AA88DB400424944 /* DringButtonDemoApp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2C48C452AA88DB200424944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F2C48C4C2AA88DB200424944 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F2C48C5C2AA88DB400424944 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F2C48C4C2AA88DB200424944;
+					};
+					F2C48C662AA88DB400424944 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F2C48C4C2AA88DB200424944;
+					};
+				};
+			};
+			buildConfigurationList = F2C48C482AA88DB200424944 /* Build configuration list for PBXProject "DringButtonDemoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2C48C442AA88DB200424944;
+			productRefGroup = F2C48C4E2AA88DB200424944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2C48C4C2AA88DB200424944 /* DringButtonDemoApp Watch App */,
+				F2C48C5C2AA88DB400424944 /* DringButtonDemoApp Watch AppTests */,
+				F2C48C662AA88DB400424944 /* DringButtonDemoApp Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2C48C4B2AA88DB200424944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C48C582AA88DB400424944 /* Preview Assets.xcassets in Resources */,
+				F2C48C552AA88DB400424944 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C48C5B2AA88DB400424944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C48C652AA88DB400424944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2C48C492AA88DB200424944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C48C532AA88DB200424944 /* ContentView.swift in Sources */,
+				F2C48C512AA88DB200424944 /* DringButtonDemoAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C48C592AA88DB400424944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C48C622AA88DB400424944 /* DringButtonDemoApp_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C48C632AA88DB400424944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C48C6E2AA88DB400424944 /* DringButtonDemoApp_Watch_AppUITestsLaunchTests.swift in Sources */,
+				F2C48C6C2AA88DB400424944 /* DringButtonDemoApp_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2C48C5F2AA88DB400424944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2C48C4C2AA88DB200424944 /* DringButtonDemoApp Watch App */;
+			targetProxy = F2C48C5E2AA88DB400424944 /* PBXContainerItemProxy */;
+		};
+		F2C48C692AA88DB400424944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2C48C4C2AA88DB200424944 /* DringButtonDemoApp Watch App */;
+			targetProxy = F2C48C682AA88DB400424944 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F2C48C6F2AA88DB400424944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2C48C702AA88DB400424944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F2C48C722AA88DB400424944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DringButtonDemoApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = VT9QW74UCT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DringButtonDemoApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F2C48C732AA88DB400424944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DringButtonDemoApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = VT9QW74UCT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DringButtonDemoApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		F2C48C752AA88DB400424944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VT9QW74UCT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoynalAbedin.DringButtonDemoApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DringButtonDemoApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DringButtonDemoApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F2C48C762AA88DB400424944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VT9QW74UCT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoynalAbedin.DringButtonDemoApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DringButtonDemoApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DringButtonDemoApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		F2C48C782AA88DB400424944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VT9QW74UCT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoynalAbedin.DringButtonDemoApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DringButtonDemoApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F2C48C792AA88DB400424944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VT9QW74UCT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoynalAbedin.DringButtonDemoApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DringButtonDemoApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2C48C482AA88DB200424944 /* Build configuration list for PBXProject "DringButtonDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C48C6F2AA88DB400424944 /* Debug */,
+				F2C48C702AA88DB400424944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C48C712AA88DB400424944 /* Build configuration list for PBXNativeTarget "DringButtonDemoApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C48C722AA88DB400424944 /* Debug */,
+				F2C48C732AA88DB400424944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C48C742AA88DB400424944 /* Build configuration list for PBXNativeTarget "DringButtonDemoApp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C48C752AA88DB400424944 /* Debug */,
+				F2C48C762AA88DB400424944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C48C772AA88DB400424944 /* Build configuration list for PBXNativeTarget "DringButtonDemoApp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C48C782AA88DB400424944 /* Debug */,
+				F2C48C792AA88DB400424944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2C48C452AA88DB200424944 /* Project object */;
+}
